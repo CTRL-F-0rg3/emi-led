@@ -1,0 +1,11 @@
+[package]
+name = "pc-app-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+btleplug = "0.11"
+tokio = { version = "1", features = ["full"] }
+uuid = "1.6"
+eframe = "0.27" # Biblioteka GUI
+egui = "0.27"   # Rdzeń GUI
